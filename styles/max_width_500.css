@@ -1,0 +1,40 @@
+@media screen and (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .container_header {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+  }
+  .container_header h1{
+
+    margin-left: 50px;
+    
+    }
+  .container_header svg{
+    width: 40px;
+  }
+
+  .menu {
+    top: 0;
+    left: 0;
+  }
+
+  .menu svg{
+    width: 30px;
+  }
+
+  .container_form form {
+    font-size: 1rem;
+  }
+
+  .container_form label,
+  button,
+  input[type="file"] {
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 5px;
+  }
+}

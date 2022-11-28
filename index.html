@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuto studi</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/max_width_500.css" />
+  </head>
+  <body>
+    <aside class="menu">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1"
+        stroke="currentColor"
+        class="w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+        />
+      </svg>
+      <div class="container_link">
+        <a id="addtuto">Ajouter un tuto</a>
+      </div>
+    </aside>
+    <header>
+      <div class="container_header">
+        <div class="title">
+          <h1>Tutoriels</h1>
+        </div>
+        <div class="container_download">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+            />
+          </svg>
+          <p class="number_download ">0</p>
+        </div>
+      </div>
+    </header>
+    <div class="overlay hide_form"></div>
+    <div class="container_form hide_form">
+      <div class="close">X</div>
+      <form onsubmit="fileUpload(this);return false;">
+        <h2>Uploader un nouveau tuto</h2>
+        <div class="file">
+          <input
+            class="form-control"
+            name="fileupload"
+            type="file"
+            id="formFile"
+          />
+        </div>
+        <div>
+          <button id="uploadtuto" type="submit">Ajouter le Tuto</button>
+        </div>
+      </form>
+    </div>
+    <div class="container"></div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
