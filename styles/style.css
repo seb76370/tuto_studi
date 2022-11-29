@@ -13,20 +13,20 @@ html {
   font-family: "DynaPuff", cursive;
 }
 
+
 body {
-  width: 100%;
-  height: 100vh;
+  width: 100vw;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-header {
-  position: absolute;
-  top: 0;
-
+header{
   width: 100%;
+  height: 150px;
+  display: flex;
 }
 
 h2 {
@@ -34,7 +34,6 @@ h2 {
 }
 
 .container_header {
-  min-height: 80px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -43,8 +42,7 @@ h2 {
   text-align: center;
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   border-radius: 10px;
-  margin: 0 10px;
-  padding: 10px;
+  width: 90%;
 }
 .container_header h1 {
   margin-left: 40px;
@@ -83,7 +81,6 @@ h2 {
 }
 
 .menu {
-  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -119,7 +116,7 @@ h2 {
 }
 
 .container {
-  margin-top: 1150px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -264,7 +261,6 @@ input[type="file"]:hover {
 
 h2 {
   width: 100%;
-  position: relative;
   border-radius: 5px;
   font-size: 3rem;
   color: white;
@@ -275,13 +271,16 @@ h2 {
 @media only screen and (max-width: 1000px) {
   .container_webserver {
     flex-direction: column;
+    width: 90%;
   }
 
   .container_webserver_info {
     width: 90%;
     padding-top: 50px;
   }
-  .container_webserver {
-    width: 90%;
+  .container_header h1 {
+    margin-left:0;
+    font-size: 4rem;
   }
+
 }
