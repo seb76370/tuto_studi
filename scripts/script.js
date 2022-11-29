@@ -8,7 +8,7 @@ const templateVideo = `
 const number_download = document.querySelector(".number_download")
 
 
-const container = document.querySelector(".container");
+const container = document.querySelector(".container_divers");
 const medias = "http://51.178.81.215/tuto_studi/uploads/";
 
 let fileSelected = "";
