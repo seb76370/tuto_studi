@@ -16,44 +16,46 @@
   <body>
     <!-- Start header -->
     <header>
-      <div class="menu">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1"
-          stroke="currentColor"
-          class="w-6 h-6"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-          />
-        </svg>
-        <div class="nav">
-          <a id="addtuto">Ajouter un tuto</a>
+      <div class="header__container">
+        <div class="menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+          <div class="nav">
+            <a id="addtuto">Ajouter un tuto</a>
+          </div>
         </div>
-      </div>
-      <div class="title">
-        <h1>Quick Tutoriels</h1>
-      </div>
-      <div class="container_download">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="w-6 h-6"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
-          />
-        </svg>
-        <p class="number_download">0</p>
+        <div class="title">
+          <h1>Quick Tutoriels</h1>
+        </div>
+        <div class="container_download">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+            />
+          </svg>
+          <p class="number_download">0</p>
+        </div>
       </div>
     </header>
     <!-- End header -->
@@ -85,75 +87,75 @@
     <!-- end container divers -->
 
     <!-- Start container web server (fixe) -->
-      <h2>Installation d'un server Web sur VPS</h2>
-      <div class="container_webserver">
+    <h2>Installation d'un server Web sur VPS</h2>
+    <div class="container_webserver">
       <div class="container_webserver_tuto">
-          <div class="container_video">
-            <h2 class="video_title">Commande du VPS</h2>
-            <video width="320" height="240" controls="">
-              <source
-                src="http://51.178.81.215/tuto_studi/uploads/Commande du VPS.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </div>
-          <div class="container_video">
-            <h2 class="video_title">Se connecter au VPS</h2>
-            <video width="320" height="240" controls="">
-              <source
-                src="http://51.178.81.215/tuto_studi/uploads/Se connecter au VPS.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </div>
-          <div class="container_video">
-            <h2 class="video_title">Installation server</h2>
-            <video width="320" height="240" controls="">
-              <source
-                src="http://51.178.81.215/tuto_studi/uploads/Installation server.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </div>
+        <div class="container_video">
+          <h2 class="video_title">Commande du VPS</h2>
+          <video width="320" height="240" controls="">
+            <source
+              src="http://51.178.81.215/tuto_studi/uploads/Commande du VPS.mp4"
+              type="video/mp4"
+            />
+          </video>
         </div>
-        <div class="container_webserver_info">
-          <p>
-            A VENIR<br />
-            Exemple de mise en place d'une site HTML dans le Répertoire html<br />
-            Sécurisation en HTTPS<br />
-          </p>
-          <h2>Les commandes</h2>
-          <br />
-          <ul>
-            <li>adduser seb76370</li>
-            <li>adduser seb76370 sudo</li>
-            <li>su root ou sudo -s</li>
-            <li>apt update</li>
-            <li>apt upgrade -y</li>
-            <li>apt autoremove</li>
-            <li>apt install -y mc git curl ntp htop</li>
-            <li>reboot</li>
-            <li>whoami</li>
-            <li>apt install nginx -y</li>
-            <li>apt install mariadb-server -y</li>
-            <li>mysql_secure_installation</li>
-            <li>apt install php-fpm php-mysql -y</li>
-            <li>cd /etc/nginx/</li>
-            <li>nano nginx.conf</li>
-            <li>cd sites-availables</li>
-            <li>/etc/init.d/nginx restart</li>
-            <li>cd /var/var/html</li>
-            <li>nano info.php</li>
-            <li>
-              apt install phpmyadmin php-mbstring php-zip php-gd php-json
-              php-curl -y
-            </li>
-            <li>ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin</li>
-            <li>chmod 775 -R /usr/share/phpmyadmin</li>
-            <li>chown root:www-data -R /usr/share/phpmyadmin</li>
-          </ul>
+        <div class="container_video">
+          <h2 class="video_title">Se connecter au VPS</h2>
+          <video width="320" height="240" controls="">
+            <source
+              src="http://51.178.81.215/tuto_studi/uploads/Se connecter au VPS.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <div class="container_video">
+          <h2 class="video_title">Installation server</h2>
+          <video width="320" height="240" controls="">
+            <source
+              src="http://51.178.81.215/tuto_studi/uploads/Installation server.mp4"
+              type="video/mp4"
+            />
+          </video>
         </div>
       </div>
+      <div class="container_webserver_info">
+        <p>
+          A VENIR<br />
+          Exemple de mise en place d'une site HTML dans le Répertoire html<br />
+          Sécurisation en HTTPS<br />
+        </p>
+        <h2>Les commandes</h2>
+        <br />
+        <ul>
+          <li>adduser seb76370</li>
+          <li>adduser seb76370 sudo</li>
+          <li>su root ou sudo -s</li>
+          <li>apt update</li>
+          <li>apt upgrade -y</li>
+          <li>apt autoremove</li>
+          <li>apt install -y mc git curl ntp htop</li>
+          <li>reboot</li>
+          <li>whoami</li>
+          <li>apt install nginx -y</li>
+          <li>apt install mariadb-server -y</li>
+          <li>mysql_secure_installation</li>
+          <li>apt install php-fpm php-mysql -y</li>
+          <li>cd /etc/nginx/</li>
+          <li>nano nginx.conf</li>
+          <li>cd sites-availables</li>
+          <li>/etc/init.d/nginx restart</li>
+          <li>cd /var/var/html</li>
+          <li>nano info.php</li>
+          <li>
+            apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
+            -y
+          </li>
+          <li>ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin</li>
+          <li>chmod 775 -R /usr/share/phpmyadmin</li>
+          <li>chown root:www-data -R /usr/share/phpmyadmin</li>
+        </ul>
+      </div>
+    </div>
     <!-- End container web server (fixe) -->
 
     <script src="scripts/script.js"></script>

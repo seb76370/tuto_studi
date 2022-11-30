@@ -1,14 +1,21 @@
 header {
+    width: 100%;
+    margin: 10px auto;
+}
+
+
+.header__container{
+
   margin: 10px auto;
-  width: 100%;
-  max-width: 1500px;
+  padding: 5px;
+  width: 90vw;
+  max-width: 2500px;
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   border-bottom-right-radius: 10px;
-  /* Border: Green Solid 1px; */
 }
 
 .menu {
@@ -49,7 +56,7 @@ h2 {
 }
 
 .container_download {
-    margin-right: 10px;
+  margin-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
