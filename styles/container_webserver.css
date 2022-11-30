@@ -33,6 +33,7 @@
 @media only screen and (max-width: 1000px) {
   .container_webserver {
     flex-direction: column;
+    align-items: center;
     width: 90%;
   }
 
