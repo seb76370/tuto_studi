@@ -1,0 +1,30 @@
+.container_webserver {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1500px;
+  padding-top: 20px;
+}
+
+.container_webserver_info {
+  width: 50%;
+}
+
+.container_webserver_info p {
+  font-size: 1.5rem;
+}
+
+.container_webserver_info ul li {
+  font-size: 1.5rem;
+}
+
+.container_webserver_tuto {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+}

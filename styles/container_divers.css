@@ -1,0 +1,25 @@
+.container_divers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1500px;
+    margin: 10px 0;
+  }
+
+  .container_video {
+    Border: red Solid 1px;
+    min-width: 200px;
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    font-size: 0.8rem;
+    border-radius: 5px;
+  }

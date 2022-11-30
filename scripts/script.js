@@ -32,7 +32,7 @@ function display_form() {
   container_form.classList.toggle("hide_form");
 }
 
-const container_link = document.querySelector(".container_link");
+const container_link = document.querySelector(".nav");
 const overlay = document.querySelector(".overlay");
 const menu = document.querySelector(".menu");
 menu.addEventListener("click", () => {
