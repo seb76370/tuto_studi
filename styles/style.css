@@ -15,6 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   gap:10px;
+  margin: 0 20px;
 }
 
 h2 {
@@ -26,19 +27,3 @@ h2 {
   text-align: center;
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
-
-
-
-
-
-@media only screen and (max-width: 1000px) {
-  .container_webserver {
-    flex-direction: column;
-    width: 90%;
-  }
-
-  .container_webserver_info {
-    width: 90%;
-    padding-top: 50px;
-  }
-} */

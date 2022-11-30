@@ -28,3 +28,15 @@
   gap: 20px;
   width: 80%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .container_webserver {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .container_webserver_info {
+    width: 90%;
+    padding-top: 50px;
+  }
+} 
