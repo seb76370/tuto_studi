@@ -19,10 +19,10 @@ body {
 }
 
 h2 {
-  width: 100%;
+  width: 80%;
   max-width: 1500px;
   border-radius: 5px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
   text-align: center;
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);

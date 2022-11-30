@@ -5,6 +5,7 @@
   width: 100%;
   max-width: 1500px;
   padding-top: 20px;
+  /* Border: Green Solid 1px; */
 }
 
 .container_webserver_info {
@@ -12,11 +13,11 @@
 }
 
 .container_webserver_info p {
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 1vw, 2rem);
 }
 
 .container_webserver_info ul li {
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 1vw, 2rem);
 }
 
 .container_webserver_tuto {
@@ -26,7 +27,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  width: 80%;
+  width: 50%;
 }
 
 @media only screen and (max-width: 1000px) {

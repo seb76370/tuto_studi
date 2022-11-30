@@ -10,7 +10,7 @@
   }
 
   .container_video {
-    Border: red Solid 1px;
+    /* Border: red Solid 1px; */
     min-width: 200px;
     width: 350px;
     padding: 10px;
