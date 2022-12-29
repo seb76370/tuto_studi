@@ -9,7 +9,7 @@ const number_download = document.querySelector(".number_download")
 
 
 const container = document.querySelector(".container_divers");
-const medias = "http://51.178.81.215/tuto_studi/uploads/";
+const medias = "https://dev-passion76.fr/tuto_studi/uploads/";
 
 let fileSelected = "";
 const addtuto = document.querySelector("#addtuto");
@@ -53,7 +53,7 @@ async function fileUpload(formElement) {
   number_download.classList.add("animNumberDownload")
   display_form()
 
-  await fetch("http://51.178.81.215:3004/upload/addfile", {
+  await fetch("https://dev-passion76.fr:3004/upload/addfile", {
     method: "POST",
     body: formData,
     dataType: "jsonp",
@@ -104,7 +104,7 @@ async function findtuto() {
     redirect: "follow",
   };
 
-  fetch("http://51.178.81.215:3004/upload/FindTuto", requestOptions)
+  fetch("https://dev-passion76.fr:3004/upload/FindTuto", requestOptions)
     .then((response) => response.json())
     .then((result) => {
       console.log(result.statusCode);
@@ -126,7 +126,7 @@ async function listAllTuto() {
     redirect: "follow",
   };
 
-  fetch("http://51.178.81.215:3004/upload/ListeFile", requestOptions)
+  fetch("https://dev-passion76.fr:3004/upload/ListeFile", requestOptions)
     .then((response) => response.json())
     .then((result) => {
       result.forEach((tuto) => {
